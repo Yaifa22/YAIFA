@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 const https = require('https');
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Waldkraiburg, DE&lang=de&APPID=fc35569047f551e86c948abc873d10a9";
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Waldkraiburg, DE&lang=de&APPID=xxxxxx";
 
 
 app.get('/', (req, res) => {
