@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 const https = require('https');
 const url1 = "https://api.openweathermap.org/data/2.5/weather?";
-const url2 = "&lang=de&APPID=fc35569047f551e86c948abc873d10a9";
+const url2 = "&lang=de&APPID=xxxxxxxxxxxxxxxxxxxx";
 const bodyParser = require("body-parser");
 
 app.use(bodyParser.urlencoded({extended: true}));
